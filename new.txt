@@ -1,0 +1,1 @@
+Ao clciar no botão Pelotense Asses, deve abrir um navegador na tela, não uma midia de navegador (uma janela de navgeador com o link comentado) hoje esta adicionando uma midia de navegador
