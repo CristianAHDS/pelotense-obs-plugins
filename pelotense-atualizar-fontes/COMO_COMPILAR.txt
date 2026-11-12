@@ -1,0 +1,69 @@
+COMO COMPILAR O PLUGIN PELOTENSE ATUALIZAR FONTES (OBS)
+======================================================
+
+Este plugin adiciona um botao "Atualizar Fontes" no painel de controles do OBS
+que substitui a URL de todas as fontes de navegador (browser_source),
+ex: https://pelotense-assets.netlify.app/... -> http://192.168.8.231:5174/...
+
+Estrutura dos arquivos:
+-----------------------
+- src/pelotense-atualizar-fontes.cpp -> codigo principal do plugin
+- src/plugin-main.c                   -> ponto de entrada do modulo OBS (obs_module_load/unload)
+- src/pelotense-atualizar-fontes.h    -> declaracoes das funcoes de init/deinit
+- CMakeLists.txt                      -> configuracao do build
+- build_simple/                       -> pasta de build gerada pelo CMake
+
+Requisitos:
+-----------
+- Windows 10/11
+- Microsoft Visual Studio (Build Tools ou Community) com C++
+- CMake
+- Dependencias do OBS ja pre-compiladas em C:\obs-deps\
+
+Caminhos importantes:
+---------------------
+Projeto:   C:\Users\tsicr\OneDrive\Área de Trabalho\Plugins OBS\pelotense-atualizar-fontes\
+Build:     C:\Users\tsicr\OneDrive\Área de Trabalho\Plugins OBS\pelotense-atualizar-fontes\build_simple\
+DLL:       C:\Users\tsicr\OneDrive\Área de Trabalho\Plugins OBS\pelotense-atualizar-fontes\build_simple\RelWithDebInfo\PelotenseAtualizarFontes.dll
+OBS deps:  C:\obs-deps\obs-deps-2025-08-23-x64\
+Qt6 deps:  C:\obs-deps\obs-deps-qt6-2025-08-23-x64\
+
+Passos para compilar do zero:
+-----------------------------
+1. Abra o PowerShell (ou Prompt de Comando).
+
+2. Gere os arquivos do CMake (apenas na primeira vez ou se o CMakeLists.txt mudou):
+   cmake "C:\Users\tsicr\OneDrive\Área de Trabalho\Plugins OBS\pelotense-atualizar-fontes" `
+     -B "C:\Users\tsicr\OneDrive\Área de Trabalho\Plugins OBS\pelotense-atualizar-fontes\build_simple" `
+     -A x64 -DCMAKE_PREFIX_PATH="C:/obs-deps/obs-deps-qt6-2025-08-23-x64"
+
+3. Compile com MSBuild:
+   & "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\MSBuild.exe" `
+     "C:\Users\tsicr\OneDrive\Área de Trabalho\Plugins OBS\pelotense-atualizar-fontes\build_simple\PelotenseAtualizarFontes.vcxproj" `
+     /p:Configuration=RelWithDebInfo /p:Platform=x64
+
+4. A DLL sera gerada em:
+   build_simple\RelWithDebInfo\PelotenseAtualizarFontes.dll
+
+Recompilar apos alterar codigo:
+-------------------------------
+Se so alterou arquivos de codigo (.cpp/.h), pode pular o passo 2 e ir direto para o MSBuild.
+Se alterou o CMakeLists.txt, repita o passo 2 (cmake) antes do MSBuild.
+
+Problemas conhecidos e solucoes:
+--------------------------------
+- Erro LNK1201 (erro de escrita no .pdb): delete o arquivo .pdb e recompile.
+- Erro "AutogenInfo.json nao eh valido": delete a pasta PelotenseAtualizarFontes_autogen dentro de build_simple e rode o cmake novamente.
+- Erro de simbolos duplicados (obs_module_load etc.): certifique-se de que nao ha OBS_DECLARE_MODULE() nem OBS_MODULE_USE_DEFAULT_LOCALE() duplicados em pelotense-atualizar-fontes.cpp; esses simbolos ficam em plugin-main.c e plugin-support.c.
+
+Instalacao no OBS:
+------------------
+Copie PelotenseAtualizarFontes.dll para a pasta de plugins do OBS, por exemplo:
+  C:\Program Files\obs-studio\obs-plugins\64bit\PelotenseAtualizarFontes.dll
+ou
+  %APPDATA%\obs-studio\plugins\PelotenseAtualizarFontes\
+
+Reinicie o OBS. O botao "Atualizar Fontes" aparecera no painel de controles.
+
+Ao clicar, todas as fontes de navegador com URL em https://pelotense-assets.netlify.app
+serao reescritas para http://192.168.8.231:5174, mantendo o restante do caminho.

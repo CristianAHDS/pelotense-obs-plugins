@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tsicr\OneDrive\Área de Trabalho\Plugins OBS\pelotense-atualizar-fontes\src\plugin-main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tsicr\OneDrive\Área de Trabalho\Plugins OBS\pelotense-atualizar-fontes\src\plugin-support.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tsicr\OneDrive\Área de Trabalho\Plugins OBS\pelotense-atualizar-fontes\src\pelotense-atualizar-fontes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tsicr\OneDrive\Área de Trabalho\Plugins OBS\pelotense-atualizar-fontes\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A3360601-3457-3C5E-B0EF-F458544F4964}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

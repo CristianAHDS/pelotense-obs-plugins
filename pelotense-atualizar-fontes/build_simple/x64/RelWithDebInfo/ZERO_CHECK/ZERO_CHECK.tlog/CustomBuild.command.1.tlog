@@ -1,0 +1,10 @@
+^C:\USERS\TSICR\ONEDRIVE\ÁREA DE TRABALHO\PLUGINS OBS\PELOTENSE-ATUALIZAR-FONTES\BUILD_SIMPLE\CMAKEFILES\E99254237A656D9CE6D86F6E5C36D4B8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/pelotense-atualizar-fontes" "-BC:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/pelotense-atualizar-fontes/build_simple" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/pelotense-atualizar-fontes/build_simple/PelotenseAtualizarFontes.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

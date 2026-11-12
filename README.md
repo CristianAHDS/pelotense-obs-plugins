@@ -5,6 +5,7 @@ Plugins para OBS Studio desenvolvidos pelo Pelotense.
 ## Plugins
 
 - **PelotenseAssets** — gerenciamento de assets para OBS.
+- **PelotenseAtualizarFontes** — com um clique, substitui a URL de todas as fontes de navegador (ex: `https://pelotense-assets.netlify.app/...` → `http://192.168.8.231:5174/...`).
 
 ## Como instalar
 

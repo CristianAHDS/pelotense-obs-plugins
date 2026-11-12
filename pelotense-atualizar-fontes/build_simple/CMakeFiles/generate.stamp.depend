@@ -1,0 +1,235 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCXXLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Internal/CheckCommon.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Linker/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Linker/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Linker/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/WindowsPaths.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/FindWrapAtomic.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtFeature.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtFeatureCommon.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicGitHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicTestHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicToolHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/obs-plugintemplate/.deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/pelotense-atualizar-fontes/CMakeLists.txt
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/pelotense-atualizar-fontes/build_simple/CMakeFiles/4.5.0-rc3/CMakeCCompiler.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/pelotense-atualizar-fontes/build_simple/CMakeFiles/4.5.0-rc3/CMakeCXXCompiler.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/pelotense-atualizar-fontes/build_simple/CMakeFiles/4.5.0-rc3/CMakeRCCompiler.cmake
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/pelotense-atualizar-fontes/build_simple/CMakeFiles/4.5.0-rc3/CMakeSystem.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/Qt6Config.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/Qt6ConfigExtras.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/Qt6ConfigVersion.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/Qt6Dependencies.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/Qt6Targets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtInstallPaths.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Core/Qt6CoreTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessAliasTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6GuiTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-debug.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateAdditionalTargetInfo.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake
+C:/obs-deps/obs-deps-qt6-2025-08-23-x64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessAliasTargets.cmake

@@ -1,0 +1,3 @@
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/pelotense-atualizar-fontes/build_simple/CMakeFiles/PelotenseAtualizarFontes.dir
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/pelotense-atualizar-fontes/build_simple/CMakeFiles/ALL_BUILD.dir
+C:/Users/tsicr/OneDrive/Área de Trabalho/Plugins OBS/pelotense-atualizar-fontes/build_simple/CMakeFiles/ZERO_CHECK.dir
