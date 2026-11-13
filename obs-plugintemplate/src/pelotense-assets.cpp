@@ -40,10 +40,7 @@
 #define DOCK_ID_ASSETS "pelotense_assets_browser_dock"
 #define DOCK_TITULO_ASSETS "Pelotense Assets"
 #define URL_PADRAO_ASSETS "http://192.168.8.231:5174/testes"
-#define URL_SUB_DE_PADRAO "https://pelotense-assets.netlify.app"
-#define URL_SUB_PARA_PADRAO "http://192.168.8.231:5174"
-#define ARQUIVO_SUB_URLS "substituir-urls.txt"
-#define MAX_FONTES_COLETA 1024
+
 #define ACENTO_COR "#6366f1"
 #define MAX_TENTATIVAS 120
 
@@ -88,98 +85,6 @@ static void ler_urls(void)
 	if (env && *env)
 		snprintf(painel_assets.url, sizeof(painel_assets.url), "%s", env);
 }
-
-	struct FonteColeta {
-		obs_source_t *fontes[MAX_FONTES_COLETA];
-		int total;
-	};
-
-	static bool coletar_fontes_proc(void *param, obs_source_t *source)
-	{
-		FonteColeta *c = (FonteColeta *)param;
-		if (!source || c->total >= MAX_FONTES_COLETA)
-			return true;
-		const char *id = obs_source_get_id(source);
-		if (!id || strcmp(id, "browser_source") != 0)
-			return true;
-		c->fontes[c->total++] = source;
-		return true;
-	}
-
-	static void ler_substituir_urls(char *de, size_t de_tam, char *para, size_t para_tam)
-	{
-		snprintf(de, de_tam, "%s", URL_SUB_DE_PADRAO);
-		snprintf(para, para_tam, "%s", URL_SUB_PARA_PADRAO);
-
-		char *caminho = obs_module_config_path(ARQUIVO_SUB_URLS);
-		if (caminho) {
-			FILE *arquivo = fopen(caminho, "r");
-			if (arquivo) {
-				char linha[2048];
-				int lida = 0;
-				while (fgets(linha, sizeof(linha), arquivo) && lida < 2) {
-					size_t tamanho = strlen(linha);
-					while (tamanho &&
-					       (linha[tamanho - 1] == '\n' || linha[tamanho - 1] == '\r'))
-						linha[--tamanho] = 0;
-					char *igual = strchr(linha, '=');
-					if (igual) {
-						char *valor = igual + 1;
-						while (*valor == ' ')
-							valor++;
-						if (lida == 0)
-							snprintf(de, de_tam, "%s", valor);
-						else if (lida == 1)
-							snprintf(para, para_tam, "%s", valor);
-						lida++;
-					} else if (tamanho > 0) {
-						if (lida == 0)
-							snprintf(de, de_tam, "%s", linha);
-						else if (lida == 1)
-							snprintf(para, para_tam, "%s", linha);
-						lida++;
-					}
-				}
-				fclose(arquivo);
-			}
-			bfree(caminho);
-		}
-	}
-
-	static int substituir_urls_todas_fontes(void)
-	{
-		char de[2048], para[2048];
-		ler_substituir_urls(de, sizeof(de), para, sizeof(para));
-
-		FonteColeta coleta = {};
-		coleta.total = 0;
-		obs_enum_sources(coletar_fontes_proc, &coleta);
-
-		int alteradas = 0;
-		size_t de_len = strlen(de);
-		for (int i = 0; i < coleta.total; i++) {
-			obs_source_t *src = coleta.fontes[i];
-			obs_data_t *settings = obs_source_get_settings(src);
-			if (!settings) {
-				obs_source_release(src);
-				continue;
-			}
-			const char *url = obs_data_get_string(settings, "url");
-			if (url && *url && strncmp(url, de, de_len) == 0) {
-				char nova[4096];
-				snprintf(nova, sizeof(nova), "%s%s", para, url + de_len);
-				obs_data_set_string(settings, "url", nova);
-				obs_source_update(src, settings);
-				alteradas++;
-			}
-			obs_data_release(settings);
-			obs_source_release(src);
-		}
-
-		blog(LOG_INFO, "[PelotenseAssets] %d de %d fonte(s) de navegador atualizada(s) (%s -> %s).",
-		     alteradas, coleta.total, de, para);
-		return alteradas;
-	}
 
 static void conectar_titulo(Painel *p)
 {
@@ -417,22 +322,6 @@ static void adicionar_botao_controles(void)
 				      .arg(ACENTO_COR));
 	coluna->addWidget(rotulo);
 	coluna->addWidget(botao);
-
-	QPushButton *botao_urls = new QPushButton("Atualizar URLs das Fontes");
-	botao_urls->setAutoDefault(false);
-	estilizar_botao(botao_urls);
-	QObject::connect(botao_urls, &QPushButton::clicked, [botao_urls]() {
-		int alteradas = substituir_urls_todas_fontes();
-		QMainWindow *janela = (QMainWindow *)obs_frontend_get_main_window();
-		QString msg;
-		if (alteradas == 1)
-			msg = "1 fonte de navegador atualizada.";
-		else
-			msg = QString("%1 fontes de navegador atualizadas.").arg(alteradas);
-		QMessageBox::information(janela, "Pelotense Assets - URLs", msg);
-		botao_urls->setText(msg);
-	});
-	coluna->addWidget(botao_urls);
 
 	layout->addWidget(bloco);
 }
